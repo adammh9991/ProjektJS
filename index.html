@@ -1,0 +1,60 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Canvas Projekt</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<canvas id="canvas1"> </canvas>
+	<div class="menu">
+	<hr>
+	<div class="slidecontainer">
+	<div class="text">Ilość okręgów : <span id="kolo" class="text"></span>
+	</div>
+	  <input type="range" min="1" max="5" value="3" id="zakres" style="width: 200px;" name="okregi" class="slider">
+	   
+	</div>
+	<hr>
+	<div class="slidecontainer2">
+	<div for="vol" class="text">Kolor : <a id="color" class="text"></a></div>
+	  <input type="range" min="1" max="300" value="1" id="zakreskoloru" style="width: 200px;" name="color" class="slider">
+	   
+	</div>
+	<hr>
+	<div class="slidecontainer3">
+	<div class="text">Rozmiar : <a id="size" class="text"></a></div>
+	  <input type="range" min="1" max="20" value="10" id="zakresrozmiaru" style="width: 200px;" name="size" class="slider">
+	   
+	</div>
+	<hr>
+	<div class="slidecontainer4">
+	<div class="text">Długość lini : <a id="length" class="text"></a></div>
+	  <input type="range" min="50" max="200" value="50" id="zakresdlugosci" style="width: 200px;" name="length" step="10" class="slider">
+	   
+	</div>
+	<hr>
+	<div class="slidecontainer5">
+	<div class="text">Grubość lini : <a id="lwidth" class="text"></a></div>
+	  <input type="range" min="0.3" max="2" value="0.6" id="zakresgrubosci" style="width: 200px;" name="lwidth" step="0.1" class="slider">
+	   
+	</div>
+	<hr>
+	
+	
+	
+	<div id="checkbox">
+		<div  class="text">Wszystkie kolory</div>
+		<input type="checkbox" id="colors" name="check" class="checkmark">
+	</div>
+	<hr>
+	
+	<a href="animacje.html" class="button">ANIMACJE</a>
+	</div>
+ 
+	<script src="script.js"></script>
+
+</body>
+</html>
